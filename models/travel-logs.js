@@ -5,6 +5,7 @@ const logSchema = new mongoose.Schema({
     city: String,
     landmark: String,
     image: String,
+    date: String,
     rating: Number
 });
 
